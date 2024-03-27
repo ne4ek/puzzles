@@ -1,0 +1,53 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.puzzle {
+    margin-bottom: 20px;
+}
+
+.puzzle h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.puzzle p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: text;
+    font-weight: bold;
+}
+
+.puzzle ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.puzzle li {
+    margin-bottom: 10px;
+}
+
+.puzzle button {
+    width: 30%;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(89, 151, 120);
+}
+
+.puzzle button:hover {
+    background-color: #ddd;
+}
