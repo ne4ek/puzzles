@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import puzzles from './Items.json';
 import './Item.css'
 
-function Item() {
+function Item({puzzles}) {
     const [currentPuzzleIndex, setCurrentPuzzleIndex] = useState(0);
     const [correctAnswers, setCorrectAnswers] = useState(0);
 
@@ -19,6 +18,9 @@ function Item() {
             setCorrectAnswers(0);
         }
     };
+
+  
+
 
     return (
         <div className='container'>
